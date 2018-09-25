@@ -2502,6 +2502,13 @@ under the configuration key `cas.authn.samlIdp.metadata.jpa`.
  
  The signing key and the encryption key [are both JWKs](Configuration-Properties-Common.html#signing--encryption) of size `512` and `256`. Signing & encryption settings for this feature are available [here](Configuration-Properties-Common.html#signing--encryption) under the configuration key `cas.authn.samlIdp.metadata.jpa`.
  
+#### SAML Metadata CouchDb
+
+ Common configuration settings for this feature are available [here](Configuration-Properties-Common.html#couchdb-configuration) 
+ under the configuration key `cas.authn.samlIdp.metadata`.
+ 
+ The signing key and the encryption key [are both JWKs](Configuration-Properties-Common.html#signing--encryption) of size `512` and `256`. Signing & encryption settings for this feature are available [here](Configuration-Properties-Common.html#signing--encryption) under the configuration key `cas.authn.samlIdp.metadata.mongo`.
+
 #### SAML Metadata MongoDb
 
  Common configuration settings for this feature are available [here](Configuration-Properties-Common.html#mongodb-configuration) 
@@ -4192,6 +4199,10 @@ LDAP settings for this feature are available [here](Configuration-Properties-Com
 ### MongoDb Attribute Consent
 
  Common configuration settings for this feature are available [here](Configuration-Properties-Common.html#mongodb-configuration) under the configuration key `cas.consent`.
+
+### CouchDb Attribute Consent
+
+ Common configuration settings for this feature are available [here](Configuration-Properties-Common.html#couchdb-configuration) under the configuration key `cas.consent`.
 
 ### REST Attribute Consent
 
